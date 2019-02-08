@@ -5,15 +5,17 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98B31566-93E5-4F84-83D9-1C2B1956208C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "src\Web\Web.csproj", "{D46B9E75-276A-41F3-83E7-0F061F98AA53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Web", "src\Web\Web.csproj", "{D46B9E75-276A-41F3-83E7-0F061F98AA53}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93A671BF-0EC3-4140-A677-A2C0DC1CD97F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionalTests", "tests\FunctionalTests\FunctionalTests.csproj", "{9ED2B3E4-064F-449C-9AED-2DBCA26633B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionalTests", "tests\FunctionalTests\FunctionalTests.csproj", "{9ED2B3E4-064F-449C-9AED-2DBCA26633B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntegrationTests", "tests\IntegrationTests\IntegrationTests.csproj", "{01E6B231-CDC9-4214-AA0F-C1CE794014F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntegrationTests", "tests\IntegrationTests\IntegrationTests.csproj", "{01E6B231-CDC9-4214-AA0F-C1CE794014F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{250C47AC-1C8F-4501-873B-95465AD48C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTests", "tests\UnitTests\UnitTests.csproj", "{250C47AC-1C8F-4501-873B-95465AD48C0B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{8ADBCB65-58EE-4E0D-A13B-CB05DF417302}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,9 +25,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D46B9E75-276A-41F3-83E7-0F061F98AA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -77,10 +76,17 @@ Global
 		{250C47AC-1C8F-4501-873B-95465AD48C0B}.Release|x86.ActiveCfg = Release|Any CPU
 		{250C47AC-1C8F-4501-873B-95465AD48C0B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D46B9E75-276A-41F3-83E7-0F061F98AA53} = {98B31566-93E5-4F84-83D9-1C2B1956208C}
 		{9ED2B3E4-064F-449C-9AED-2DBCA26633B1} = {93A671BF-0EC3-4140-A677-A2C0DC1CD97F}
 		{01E6B231-CDC9-4214-AA0F-C1CE794014F1} = {93A671BF-0EC3-4140-A677-A2C0DC1CD97F}
 		{250C47AC-1C8F-4501-873B-95465AD48C0B} = {93A671BF-0EC3-4140-A677-A2C0DC1CD97F}
+		{8ADBCB65-58EE-4E0D-A13B-CB05DF417302} = {98B31566-93E5-4F84-83D9-1C2B1956208C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD126C0C-9837-460B-857F-0DE97667EE06}
 	EndGlobalSection
 EndGlobal
