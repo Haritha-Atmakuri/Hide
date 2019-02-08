@@ -8,9 +8,9 @@ namespace UnitTests
         [Fact]
         public void Test1()
         {
-            bool expected = false
-            var age = 14
-         bool actual =  checkAge(age)
+            bool expected = false;
+            var age = 14;
+         bool actual =  checkAge(age);
          Assert.Equal(expected,actual);
         }
     
@@ -19,11 +19,11 @@ namespace UnitTests
     {
       if(age > 18)
       {
-          return true
+          return true;
       }
       else
       {
-          return false
+          return false;
       }
     }
 
